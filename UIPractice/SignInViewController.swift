@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +23,8 @@ struct ViewControllerProvider: PreviewProvider {
     }
     
     struct ContainerView: UIViewControllerRepresentable {
-        let viewController = ViewController() // Write your VC name
-        func makeUIViewController(context: UIViewControllerRepresentableContext<ViewControllerProvider.ContainerView>) -> ViewController {
+        let viewController = SignInViewController() // Write your VC name
+        func makeUIViewController(context: UIViewControllerRepresentableContext<ViewControllerProvider.ContainerView>) -> SignInViewController {
             return viewController
         }
         
