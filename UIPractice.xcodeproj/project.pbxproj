@@ -18,6 +18,9 @@
 		120042A6260CD3B9002CB846 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120042A5260CD3B9002CB846 /* UserViewController.swift */; };
 		120042AE260CD9D9002CB846 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120042AD260CD9D9002CB846 /* Constants.swift */; };
 		12487733260D06BA001F3C70 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12487732260D06BA001F3C70 /* UIView+Ext.swift */; };
+		12487737260D2F14001F3C70 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12487736260D2F14001F3C70 /* AccountSettingsViewController.swift */; };
+		1248773A260D2F5C001F3C70 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12487739260D2F5C001F3C70 /* UITableView+Ext.swift */; };
+		1248773E260D300D001F3C70 /* AccountSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1248773D260D300D001F3C70 /* AccountSettingsCell.swift */; };
 		1253D5A3260CF028007F4B6C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1253D5A2260CF028007F4B6C /* SnapKit */; };
 		1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AC260CF503007F4B6C /* BrandLabel.swift */; };
 		1253D5B0260CF515007F4B6C /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AF260CF515007F4B6C /* BrandButton.swift */; };
@@ -38,6 +41,9 @@
 		120042A5260CD3B9002CB846 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		120042AD260CD9D9002CB846 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		12487732260D06BA001F3C70 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		12487736260D2F14001F3C70 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
+		12487739260D2F5C001F3C70 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		1248773D260D300D001F3C70 /* AccountSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsCell.swift; sourceTree = "<group>"; };
 		1253D5AC260CF503007F4B6C /* BrandLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLabel.swift; sourceTree = "<group>"; };
 		1253D5AF260CF515007F4B6C /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
 		1253D5B2260CF54A007F4B6C /* BrandTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTextField.swift; sourceTree = "<group>"; };
@@ -100,14 +106,25 @@
 			children = (
 				120042AD260CD9D9002CB846 /* Constants.swift */,
 				12487732260D06BA001F3C70 /* UIView+Ext.swift */,
+				12487739260D2F5C001F3C70 /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1248773C260D2FE2001F3C70 /* AccoutSettings */ = {
+			isa = PBXGroup;
+			children = (
+				12487736260D2F14001F3C70 /* AccountSettingsViewController.swift */,
+				1248773D260D300D001F3C70 /* AccountSettingsCell.swift */,
+			);
+			name = AccoutSettings;
 			sourceTree = "<group>";
 		};
 		1253D5A5260CF09C007F4B6C /* Registration */ = {
 			isa = PBXGroup;
 			children = (
 				12004287260CCB6C002CB846 /* SignInViewController.swift */,
+				1248773C260D2FE2001F3C70 /* AccoutSettings */,
 			);
 			path = Registration;
 			sourceTree = "<group>";
@@ -208,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12487737260D2F14001F3C70 /* AccountSettingsViewController.swift in Sources */,
 				1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */,
 				12004288260CCB6C002CB846 /* SignInViewController.swift in Sources */,
 				120042A3260CD348002CB846 /* ReportsViewController.swift in Sources */,
@@ -216,8 +234,10 @@
 				1200429C260CD227002CB846 /* MainTabBarController.swift in Sources */,
 				1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */,
 				120042A6260CD3B9002CB846 /* UserViewController.swift in Sources */,
+				1248773E260D300D001F3C70 /* AccountSettingsCell.swift in Sources */,
 				12487733260D06BA001F3C70 /* UIView+Ext.swift in Sources */,
 				12004286260CCB6C002CB846 /* SceneDelegate.swift in Sources */,
+				1248773A260D2F5C001F3C70 /* UITableView+Ext.swift in Sources */,
 				120042AE260CD9D9002CB846 /* Constants.swift in Sources */,
 				1253D5B0260CF515007F4B6C /* BrandButton.swift in Sources */,
 			);

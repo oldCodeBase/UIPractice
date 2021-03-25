@@ -7,7 +7,7 @@
 
 import UIKit
 
-enum Colours {
+enum Colors {
     static let brandColor   = UIColor(named: "brandColor")!
     static let brandGray    = UIColor(named: "brandGray")!
     static let brandGray2   = UIColor(named: "brandGray2")!

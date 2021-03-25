@@ -28,9 +28,9 @@ class BrandTextField: UITextField {
         
         layer.cornerRadius          = 8
         layer.borderWidth           = 2
-        layer.borderColor           = Colours.brandColor.cgColor
+        layer.borderColor           = Colors.brandColor.cgColor
         
-        textColor                   = Colours.brandBlack
+        textColor                   = Colors.brandBlack
         textAlignment               = .left
         leftView                    = UIView(frame: CGRect(x: 0, y: 0, width: 24, height: 10))
         leftViewMode                = .always

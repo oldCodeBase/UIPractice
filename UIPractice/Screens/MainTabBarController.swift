@@ -11,7 +11,7 @@ class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        UITabBar.appearance().tintColor = Colours.brandColor
+        UITabBar.appearance().tintColor = Colors.brandColor
         viewControllers    = [createFeedsNC(), createReportsNC(), createUserVC()]
     }
     
