@@ -11,6 +11,6 @@ class ReportsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = Colours.brandBG
+        view.backgroundColor = Colors.brandBG
     }
 }
