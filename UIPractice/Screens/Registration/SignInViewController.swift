@@ -12,7 +12,7 @@ class SignInViewController: UIViewController {
     
     private let accountLabel = BrandLabel(textAlignment: .center, fontSize: 20)
     private let profileImage = UIImageView(image: Registration.profile)
-    private let signInLabel = BrandLabel(textColour: Colours.brandGray, textAlignment: .center, fontSize: 15)
+    private let signInLabel = BrandLabel(textColor: Colors.brandGray, textAlignment: .center, fontSize: 15)
     
     private let googleButton = BrandButton(backgroundImage: Registration.google!)
     private let appleButton = BrandButton(backgroundImage: Registration.apple!)
@@ -20,7 +20,7 @@ class SignInViewController: UIViewController {
     
     private let emailTextFiled = BrandTextField(placeholderText: "Ваш e-mail")
     private let passwordTextField = BrandTextField(placeholderText: "Ваш пароль")
-    private let signInButton = BrandButton(backgroundColor: Colours.brandColor, title: "Sign In")
+    private let signInButton = BrandButton(backgroundColor: Colors.brandColor, title: "Sign In")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class SignInViewController: UIViewController {
     
     
     func configureUI() {
-        view.backgroundColor = Colours.brandBG
+        view.backgroundColor = Colors.brandBG
         view.addSubviews(accountLabel, signInLabel, profileImage, facebookButton,
                          appleButton, googleButton, emailTextFiled, passwordTextField, signInButton)
         
