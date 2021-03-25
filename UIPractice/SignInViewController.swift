@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SignInViewController.swift
 //  UIPractice
 //
 //  Created by Ibragim Akaev on 25/03/2021.
@@ -11,7 +11,7 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPink
+        view.backgroundColor = Colours.brandBG
     }
 }
 
