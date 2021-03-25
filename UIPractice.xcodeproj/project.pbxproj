@@ -17,7 +17,11 @@
 		120042A3260CD348002CB846 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120042A2260CD348002CB846 /* ReportsViewController.swift */; };
 		120042A6260CD3B9002CB846 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120042A5260CD3B9002CB846 /* UserViewController.swift */; };
 		120042AE260CD9D9002CB846 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120042AD260CD9D9002CB846 /* Constants.swift */; };
+		12487733260D06BA001F3C70 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12487732260D06BA001F3C70 /* UIView+Ext.swift */; };
 		1253D5A3260CF028007F4B6C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1253D5A2260CF028007F4B6C /* SnapKit */; };
+		1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AC260CF503007F4B6C /* BrandLabel.swift */; };
+		1253D5B0260CF515007F4B6C /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AF260CF515007F4B6C /* BrandButton.swift */; };
+		1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5B2260CF54A007F4B6C /* BrandTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		120042A2260CD348002CB846 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		120042A5260CD3B9002CB846 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		120042AD260CD9D9002CB846 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12487732260D06BA001F3C70 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		1253D5AC260CF503007F4B6C /* BrandLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLabel.swift; sourceTree = "<group>"; };
+		1253D5AF260CF515007F4B6C /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
+		1253D5B2260CF54A007F4B6C /* BrandTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +74,10 @@
 		12004282260CCB6C002CB846 /* UIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				1253D5A8260CF486007F4B6C /* Custom Views */,
 				120042AC260CD9C3002CB846 /* Extensions */,
 				1200429E260CD309002CB846 /* Screens */,
-				12004283260CCB6C002CB846 /* AppDelegate.swift */,
-				12004285260CCB6C002CB846 /* SceneDelegate.swift */,
-				12004287260CCB6C002CB846 /* SignInViewController.swift */,
-				1200428C260CCB6F002CB846 /* Assets.xcassets */,
-				1200428E260CCB6F002CB846 /* LaunchScreen.storyboard */,
+				1253D5A7260CF43F007F4B6C /* Supporting */,
 				12004291260CCB6F002CB846 /* Info.plist */,
 			);
 			path = UIPractice;
@@ -81,6 +86,7 @@
 		1200429E260CD309002CB846 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1253D5A5260CF09C007F4B6C /* Registration */,
 				1200429B260CD227002CB846 /* MainTabBarController.swift */,
 				1200429F260CD339002CB846 /* FeedsViewController.swift */,
 				120042A2260CD348002CB846 /* ReportsViewController.swift */,
@@ -93,8 +99,38 @@
 			isa = PBXGroup;
 			children = (
 				120042AD260CD9D9002CB846 /* Constants.swift */,
+				12487732260D06BA001F3C70 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1253D5A5260CF09C007F4B6C /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				12004287260CCB6C002CB846 /* SignInViewController.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		1253D5A7260CF43F007F4B6C /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				12004283260CCB6C002CB846 /* AppDelegate.swift */,
+				12004285260CCB6C002CB846 /* SceneDelegate.swift */,
+				1200428C260CCB6F002CB846 /* Assets.xcassets */,
+				1200428E260CCB6F002CB846 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1253D5A8260CF486007F4B6C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				1253D5AC260CF503007F4B6C /* BrandLabel.swift */,
+				1253D5AF260CF515007F4B6C /* BrandButton.swift */,
+				1253D5B2260CF54A007F4B6C /* BrandTextField.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,14 +208,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */,
 				12004288260CCB6C002CB846 /* SignInViewController.swift in Sources */,
 				120042A3260CD348002CB846 /* ReportsViewController.swift in Sources */,
 				120042A0260CD339002CB846 /* FeedsViewController.swift in Sources */,
 				12004284260CCB6C002CB846 /* AppDelegate.swift in Sources */,
 				1200429C260CD227002CB846 /* MainTabBarController.swift in Sources */,
+				1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */,
 				120042A6260CD3B9002CB846 /* UserViewController.swift in Sources */,
+				12487733260D06BA001F3C70 /* UIView+Ext.swift in Sources */,
 				12004286260CCB6C002CB846 /* SceneDelegate.swift in Sources */,
 				120042AE260CD9D9002CB846 /* Constants.swift in Sources */,
+				1253D5B0260CF515007F4B6C /* BrandButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
