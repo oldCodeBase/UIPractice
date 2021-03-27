@@ -13,7 +13,7 @@ class BrandLabel: UILabel {
         super.init(frame: frame)
     }
     
-    convenience init(textColor: UIColor = .black, textAlignment: NSTextAlignment, fontSize: CGFloat) {
+    convenience init(textColor: UIColor = .black, textAlignment: NSTextAlignment = .left, fontSize: CGFloat = 15) {
         self.init(frame: .zero)
         self.textColor      = textColor
         self.textAlignment  = textAlignment
