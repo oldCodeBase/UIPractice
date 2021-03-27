@@ -44,13 +44,11 @@ class FoundsViewController: UIViewController {
 
 extension FoundsViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        5
+        15
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let item = collectionView.dequeueReusableCell(withReuseIdentifier: FoundCell.reuseID, for: indexPath) as! FoundCell
         return item
     }
-    
-    
 }
