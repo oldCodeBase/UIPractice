@@ -25,6 +25,8 @@
 		1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AC260CF503007F4B6C /* BrandLabel.swift */; };
 		1253D5B0260CF515007F4B6C /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AF260CF515007F4B6C /* BrandButton.swift */; };
 		1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5B2260CF54A007F4B6C /* BrandTextField.swift */; };
+		12CEBA13260FC51900BD3BD0 /* FoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CEBA12260FC51900BD3BD0 /* FoundsViewController.swift */; };
+		12CEBA16260FC56D00BD3BD0 /* FoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CEBA15260FC56D00BD3BD0 /* FoundCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		1253D5AC260CF503007F4B6C /* BrandLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLabel.swift; sourceTree = "<group>"; };
 		1253D5AF260CF515007F4B6C /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
 		1253D5B2260CF54A007F4B6C /* BrandTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTextField.swift; sourceTree = "<group>"; };
+		12CEBA12260FC51900BD3BD0 /* FoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundsViewController.swift; sourceTree = "<group>"; };
+		12CEBA15260FC56D00BD3BD0 /* FoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		1200429E260CD309002CB846 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				12CEBA11260FC4EA00BD3BD0 /* Founds */,
 				1253D5A5260CF09C007F4B6C /* Registration */,
 				1200429B260CD227002CB846 /* MainTabBarController.swift */,
 				1200429F260CD339002CB846 /* FeedsViewController.swift */,
@@ -148,6 +153,15 @@
 				1253D5B2260CF54A007F4B6C /* BrandTextField.swift */,
 			);
 			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		12CEBA11260FC4EA00BD3BD0 /* Founds */ = {
+			isa = PBXGroup;
+			children = (
+				12CEBA12260FC51900BD3BD0 /* FoundsViewController.swift */,
+				12CEBA15260FC56D00BD3BD0 /* FoundCell.swift */,
+			);
+			path = Founds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,10 +242,12 @@
 				12487737260D2F14001F3C70 /* AccountSettingsViewController.swift in Sources */,
 				1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */,
 				12004288260CCB6C002CB846 /* SignInViewController.swift in Sources */,
+				12CEBA13260FC51900BD3BD0 /* FoundsViewController.swift in Sources */,
 				120042A3260CD348002CB846 /* ReportsViewController.swift in Sources */,
 				120042A0260CD339002CB846 /* FeedsViewController.swift in Sources */,
 				12004284260CCB6C002CB846 /* AppDelegate.swift in Sources */,
 				1200429C260CD227002CB846 /* MainTabBarController.swift in Sources */,
+				12CEBA16260FC56D00BD3BD0 /* FoundCell.swift in Sources */,
 				1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */,
 				120042A6260CD3B9002CB846 /* UserViewController.swift in Sources */,
 				1248773E260D300D001F3C70 /* AccountSettingsCell.swift in Sources */,

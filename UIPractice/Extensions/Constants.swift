@@ -30,6 +30,7 @@ enum Icons {
     static let reportsSelected  = UIImage(systemName: "rectangle.stack.fill")
     static let user             = UIImage(systemName: "person.crop.circle")
     static let userSelected     = UIImage(systemName: "person.crop.circle.fill")
+    static let foundLogo        = UIImage(named: "foundLogo")
 }
 
 enum Registration {
