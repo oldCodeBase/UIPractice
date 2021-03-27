@@ -16,8 +16,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = AccountSettingsViewController()
+        window?.rootViewController = createNavController()
         window?.makeKeyAndVisible()
+    }
+    
+    private func createNavController() -> UINavigationController {
+        let vc = FoundsViewController()
+        let nav = UINavigationController(rootViewController: vc)
+        nav.navigationItem.largeTitleDisplayMode = .always
+        return nav
     }
 }
 
