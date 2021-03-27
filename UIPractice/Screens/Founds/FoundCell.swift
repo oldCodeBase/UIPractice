@@ -11,8 +11,8 @@ class FoundCell: UICollectionViewCell {
     
     static let reuseID              = "FoundCell"
     private let foundLogoImageView  = UIImageView(image: Icons.foundLogo)
-    private let foundNameLabel      = BrandLabel(textAlignment: .left, fontSize: 17)
-    private let foundLocationLabel  = BrandLabel(textColor: Colors.brandGray, textAlignment: .left, fontSize: 13)
+    private let foundNameLabel      = BrandLabel()
+    private let foundLocationLabel  = BrandLabel(textColor: Colors.brandGray)
     
     override init(frame: CGRect) {
         super.init(frame: frame)
