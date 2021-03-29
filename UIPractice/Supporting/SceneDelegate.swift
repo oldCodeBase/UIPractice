@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     private func createNavController() -> UINavigationController {
-        let vc = FoundsViewController()
+        let vc = HelpThroughMeViewController()
         let nav = UINavigationController(rootViewController: vc)
         nav.navigationItem.largeTitleDisplayMode = .always
         return nav
