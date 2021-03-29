@@ -25,6 +25,10 @@
 		1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AC260CF503007F4B6C /* BrandLabel.swift */; };
 		1253D5B0260CF515007F4B6C /* BrandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5AF260CF515007F4B6C /* BrandButton.swift */; };
 		1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253D5B2260CF54A007F4B6C /* BrandTextField.swift */; };
+		127DFD41261232F0003AAEA3 /* MyDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DFD40261232F0003AAEA3 /* MyDonationsViewController.swift */; };
+		127DFD442612330F003AAEA3 /* MyDonationsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DFD432612330F003AAEA3 /* MyDonationsCell.swift */; };
+		127DFD4926123D7B003AAEA3 /* HelpThroughMeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DFD4826123D7B003AAEA3 /* HelpThroughMeCell.swift */; };
+		127DFD4C26123D92003AAEA3 /* HelpThroughMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DFD4B26123D92003AAEA3 /* HelpThroughMeViewController.swift */; };
 		12CEBA13260FC51900BD3BD0 /* FoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CEBA12260FC51900BD3BD0 /* FoundsViewController.swift */; };
 		12CEBA16260FC56D00BD3BD0 /* FoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CEBA15260FC56D00BD3BD0 /* FoundCell.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +53,10 @@
 		1253D5AC260CF503007F4B6C /* BrandLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLabel.swift; sourceTree = "<group>"; };
 		1253D5AF260CF515007F4B6C /* BrandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandButton.swift; sourceTree = "<group>"; };
 		1253D5B2260CF54A007F4B6C /* BrandTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTextField.swift; sourceTree = "<group>"; };
+		127DFD40261232F0003AAEA3 /* MyDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDonationsViewController.swift; sourceTree = "<group>"; };
+		127DFD432612330F003AAEA3 /* MyDonationsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDonationsCell.swift; sourceTree = "<group>"; };
+		127DFD4826123D7B003AAEA3 /* HelpThroughMeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpThroughMeCell.swift; sourceTree = "<group>"; };
+		127DFD4B26123D92003AAEA3 /* HelpThroughMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpThroughMeViewController.swift; sourceTree = "<group>"; };
 		12CEBA12260FC51900BD3BD0 /* FoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundsViewController.swift; sourceTree = "<group>"; };
 		12CEBA15260FC56D00BD3BD0 /* FoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +104,7 @@
 		1200429E260CD309002CB846 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				127DFD3F261232AB003AAEA3 /* Profile */,
 				12CEBA11260FC4EA00BD3BD0 /* Founds */,
 				1253D5A5260CF09C007F4B6C /* Registration */,
 				1200429B260CD227002CB846 /* MainTabBarController.swift */,
@@ -153,6 +162,33 @@
 				1253D5B2260CF54A007F4B6C /* BrandTextField.swift */,
 			);
 			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		127DFD3F261232AB003AAEA3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				127DFD4726123D43003AAEA3 /* HelpThroughMe */,
+				127DFD4626123D31003AAEA3 /* MyDonations */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		127DFD4626123D31003AAEA3 /* MyDonations */ = {
+			isa = PBXGroup;
+			children = (
+				127DFD40261232F0003AAEA3 /* MyDonationsViewController.swift */,
+				127DFD432612330F003AAEA3 /* MyDonationsCell.swift */,
+			);
+			path = MyDonations;
+			sourceTree = "<group>";
+		};
+		127DFD4726123D43003AAEA3 /* HelpThroughMe */ = {
+			isa = PBXGroup;
+			children = (
+				127DFD4826123D7B003AAEA3 /* HelpThroughMeCell.swift */,
+				127DFD4B26123D92003AAEA3 /* HelpThroughMeViewController.swift */,
+			);
+			path = HelpThroughMe;
 			sourceTree = "<group>";
 		};
 		12CEBA11260FC4EA00BD3BD0 /* Founds */ = {
@@ -243,14 +279,18 @@
 				1253D5AD260CF503007F4B6C /* BrandLabel.swift in Sources */,
 				12004288260CCB6C002CB846 /* SignInViewController.swift in Sources */,
 				12CEBA13260FC51900BD3BD0 /* FoundsViewController.swift in Sources */,
+				127DFD442612330F003AAEA3 /* MyDonationsCell.swift in Sources */,
 				120042A3260CD348002CB846 /* ReportsViewController.swift in Sources */,
+				127DFD4926123D7B003AAEA3 /* HelpThroughMeCell.swift in Sources */,
 				120042A0260CD339002CB846 /* FeedsViewController.swift in Sources */,
 				12004284260CCB6C002CB846 /* AppDelegate.swift in Sources */,
 				1200429C260CD227002CB846 /* MainTabBarController.swift in Sources */,
 				12CEBA16260FC56D00BD3BD0 /* FoundCell.swift in Sources */,
 				1253D5B3260CF54A007F4B6C /* BrandTextField.swift in Sources */,
+				127DFD4C26123D92003AAEA3 /* HelpThroughMeViewController.swift in Sources */,
 				120042A6260CD3B9002CB846 /* UserViewController.swift in Sources */,
 				1248773E260D300D001F3C70 /* AccountSettingsCell.swift in Sources */,
+				127DFD41261232F0003AAEA3 /* MyDonationsViewController.swift in Sources */,
 				12487733260D06BA001F3C70 /* UIView+Ext.swift in Sources */,
 				12004286260CCB6C002CB846 /* SceneDelegate.swift in Sources */,
 				1248773A260D2F5C001F3C70 /* UITableView+Ext.swift in Sources */,
