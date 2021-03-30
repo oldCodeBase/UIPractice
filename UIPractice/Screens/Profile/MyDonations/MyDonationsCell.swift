@@ -40,7 +40,7 @@ class MyDonationsCell: UICollectionViewCell {
         foundNameLabel.text = "Территория милосердия"
         foundNameLabel.font = UIFont.systemFont(ofSize: 13, weight: .regular)
         
-        moneyLabel.text = "100 ₽"
+        moneyLabel.text = "1006 ₽"
         moneyLabel.font = UIFont.systemFont(ofSize: 24, weight: .semibold)
         
         timeLabel.text = "30 апр"
